@@ -27,6 +27,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+    ../../../Partition/IndexPartition.cpp
+
+
+
+
+SOURCES += \
         tst_indexpartitiontest.cpp 
 
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
+INCLUDEPATH += $$PWD/../../../Partition
